@@ -229,8 +229,107 @@ header button:hover{
 }
 
 /* ------------------------------ Recent projects ------------------------------ */
+                  /* TÍTULO */
+.recentProjectsTitleContainer{
+  display: block;
+  margin-left: 5%;
+  margin-bottom: 6%;
+}
 
-/* Your CSS code goes here */
+.recentProjectsTitle{
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--quinary);
+}
+                  /* COLUMNAS CON IMAGENES Y TEXTO */
+.recentProjectsColumns{  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 15%;
+}
+          /* SIMPLIFY COLUMN */
+.primeraColumna{
+  background-color: white;
+  height: 445px;
+}
+
+.primeraColumnaImg{
+  width: 100%;
+  height: 240px;
+}
+
+.recentProjectH{
+  position: relative;
+  color: var(--quinary);
+  margin-top: 7%;
+  margin-left: 8%;
+}
+
+#simplify{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 6%;
+}
+
+#lmU{
+  position: absolute;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+  top: 110px;
+}
+            /* DASHCOIN COLUMN */
+.segundaColumna{
+  background-color: white;
+}
+
+.segundaColumnaImg{
+  width: 100%;
+  height: 240px;
+}
+
+#dashcoin{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 6%;
+}
+
+#lmD{
+    position: absolute;
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 500;
+    top: 110px;
+}
+            /* VECTORIFY COLUMN */
+.terceraColumna{
+  background-color: white;
+}
+
+.terceraColumnaImg{
+  width: 100%;
+  height: 240px;
+}
+
+#vectorify{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 6%;
+}
+
+#lmT{
+  position: absolute;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+  top: 110px;
+}
 
 /* ------------------------------ Client reviews ------------------------------ */
 
