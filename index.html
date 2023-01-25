@@ -123,52 +123,61 @@
    <!-- Seccion de Nuestros servicios -->
    <div>
     <!-- Título de la sección -->
-    <div>
-      <h2>Our Services</h2>
+    <div class="ourServicesTittleContainer">
+      <h2 class="ourServicesTitle">Our Services</h2>
     </div>
     <!-- Tres cuadrados en línea con icono y texto -->
-    <div>
+    <div class="ourServicesColumns">
       <div class="primerCuadrado">
-        <img src="./resources/images/services-section/icons/1.svg" alt="Icono de pluma">
-        <h3>User Interface Design</h3>
-        <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
-        <a href="">Learn More</a>
+        <div id="plumaIcono"></div>
+        <div id="textoCuadradoUno">
+          <h3 id="userInterfaceH">User Interface Design</h3>
+          <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+          <a id="lmC" href="">Learn More</a>
+        </div>
+        
       </div>
 
       <div class="segundoCuadrado">
-        <img src="./resources/images/services-section/icons/2.svg" alt="Icono de ratón">
-        <h3>User Experience Design</h3>
-        <p>Circle always focuses on delivering the best user experience to your customers.</p>
-        <a href="">Learn More</a>
+        <div id="ratonIcono"></div>
+        <div id="textoCuadradoDos">
+          <h3 id="userExperienceH">User Experience Design</h3>
+          <p>Circle always focuses on delivering the best user experience to your customers.</p>
+          <a id="lmX" href="">Learn More</a>
+        </div>
+        
       </div>
 
       <div class="tercerCuadrado">
-        <img src="./resources/images/services-section/icons/3.svg" alt="Icono de etiqueta de html">
-        <h3>Application Development</h3>
-        <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
-        <a href="">Learn More</a>
+        <div id="etiquetaIcono"></div>
+        <div id="textoCuadradoTres">
+          <h3 id="applicationDevelopmentH">Application Development</h3>
+          <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
+          <a id="lmS" href="">Learn More</a>
+        </div>
       </div>
     </div>
 
    </div>
    <!-- Sección de Preguntas fondo amarillo -->
-   <div>
+   <div class="containerAmarillo">
     <!-- Título de la sección -->
     <div>
-      <h2>Do you have any questions?</h2>
-      <p>Let us help you!</p>
+      <h2 class="tituloAmarillo">Do you have any questions?</h2>
+      <p class="textoAmarillo">Let us help you!</p>
     </div>
     <!-- Espacio para subscribirte -->
-    <form action="emailForm">
-      <!-- Caja de texto -->
-      <div class="rectanguloEmail">
-        <div class="iconoSobre"></div>
-        <input type="email" class="espacioParaEscribir">
-      </div>
-      <!-- Botón de enviar -->
-      <button>Subscribe</button>
-    </form>
-
+    <div class="emailForm">
+      <form action="emailForm">
+        <!-- Caja de texto -->
+        <div class="rectanguloEmail">
+          <div class="iconoSobre"></div>
+          <input type="email" class="espacioParaEscribir">
+        </div>
+        <!-- Botón de enviar -->
+        <button class="botonSuscribe">Suscribe</button>
+      </form>
+    </div>
    </div>
    <!-- Pie de página -->
    <footer>

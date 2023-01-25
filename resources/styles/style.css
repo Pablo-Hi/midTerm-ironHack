@@ -22,53 +22,6 @@ body {
   background-color: var(--secondary);
 }
 
-/* @media only screen and (min-width: 320px) and (max-width: 750px){ */
-  /* .smart{
-    display: block;
-  }
-  
-  .tablet{
-    display: none;
-  }
-  
-  .desktop{
-    display: none;
-  }
-}
-
-
-
-@media only screen and (min-width: 751px) and (max-width: 1023px) {
-  .smart{
-    display: none;
-  }
-  
-  .tablet{
-    display: block;
-  }
-  
-  .desktop{
-    display: none;
-  }
-}
-
-
-
-@media only screen and (min-width: 1024px){
-  .smart{
-    display: none;
-  }
-  
-  .tablet{
-    display: none;
-  }
-  
-  .desktop{
-    display: block;
-  }
-} */
-
-
 /* ------------------------------------------------------------------------ */
 /* ------------------------------ INDEX html ------------------------------ */
 /* ------------------------------------------------------------------------ */
@@ -245,7 +198,7 @@ header button:hover{
   color: var(--quinary);
 }
                   /* COLUMNAS CON IMAGENES Y TEXTO */
-.recentProjectsColumns{  
+.recentProjectsColumns{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
@@ -337,12 +290,12 @@ header button:hover{
 
 .reviewContainer{
   background-color: var(--senary);
-  display: grid; 
+  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
   grid-row-gap: 150px;
   text-align: center;
-  margin-top: 17%;  
+  margin-top: 17%;
   padding-top: 7%;
   padding-left: 7%;
   padding-right: 7%;
@@ -437,11 +390,198 @@ header button:hover{
 
 /* ------------------------------ Services ------------------------------ */
 
-/* Your CSS code goes here */
+                /* TÍTULO */
 
+.ourServicesTittleContainer{
+  display: block;
+  margin-left: 5%;
+  margin-top: 16%;
+  margin-bottom: 5%;
+}
+
+.ourServicesTitle{
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--quinary);
+}
+
+              /* COLUMNAS */
+
+.ourServicesColumns{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 15%;
+}
+                /* USER INTERFACE DESING */
+.primerCuadrado{
+  background-color: white;
+  height: 345px;
+}
+
+#plumaIcono{
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+  margin-left: 40px;
+  border-radius: 50%;
+  background-color: #ecf7ff;
+  background-image: url(../images/services-section/icons/1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#userInterfaceH{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 7%;
+}
+
+#textoCuadradoUno{
+  margin-top: 8%;
+  margin-left: 8%;
+  margin-right: 38px;
+  font-size: 17px;
+}
+
+#lmC{
+  position: relative;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+  top: 35px;
+}
+              /* USER EXPERIENCE DESING */
+.segundoCuadrado{
+  background-color: white;
+}
+
+#ratonIcono{
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+  margin-left: 40px;
+  border-radius: 50%;
+  background-color: #ecf7ff;
+  background-image: url(../images/services-section/icons/2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#userExperienceH{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 7%;
+}
+
+#textoCuadradoDos{
+  margin-top: 8%;
+  margin-left: 8%;
+  margin-right: 38px;
+  font-size: 17px;
+}
+
+#lmX{
+  position: relative;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+  top: 35px;
+}
+                /* APPLICATION DEVELOPMENT */
+.tercerCuadrado{
+  background-color: white;
+}
+
+#etiquetaIcono{
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+  margin-left: 40px;
+  border-radius: 50%;
+  background-color: #ecf7ff;
+  background-image: url(../images/services-section/icons/3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#applicationDevelopmentH{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 7%;
+}
+
+#textoCuadradoTres{
+  margin-top: 8%;
+  margin-left: 8%;
+  margin-right: 38px;
+  font-size: 17px;
+}
+
+#lmS{
+  position: relative;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+  top: 35px;
+}
 /* ------------------------------ Questions form ------------------------------ */
 
-/* Your CSS code goes here */
+.containerAmarillo{
+  background-color: var(--septenary);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 50px;
+  text-align: center;
+  margin-top: 17%;
+  margin-bottom: 17%;
+  padding-top: 12%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 10%;
+}
+                /* TÍTULO */
+.tituloAmarillo{
+  color: var(--quinary);
+  font-size: 40px;
+  margin-bottom: 2%;
+}
+
+.textoAmarillo{
+  color: var(--tertiary);
+  font-size: 17px;
+}
+                /* CAJA Y BOTÓN */
+.espacioParaEscribir{
+  position: absolute;
+  left: 27%;
+  width: 393px;
+  height: 80px;
+  border: 1px solid rgb(202, 200, 200);
+  background-image: url(../images/newsletter/icon/mail.svg);
+  background-repeat: no-repeat;
+  background-position-x: 20px;
+  background-position-y: 23px;
+}
+
+.botonSuscribe{
+  position: absolute;
+  left: 60%;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 15px 60px;
+  height: 80px;
+  width: 186px;
+  border-style: none;
+  background-color: var(--primary);
+}
 
 /* ------------------------------ Footer ------------------------------ */
 
@@ -494,3 +634,49 @@ header button:hover{
 /* ------------------------------ Sticky scroll bar ------------------------------ */
 
 /* Your CSS code goes here */
+
+/* @media only screen and (min-width: 320px) and (max-width: 750px){ */
+  /* .smart{
+    display: block;
+  }
+
+  .tablet{
+    display: none;
+  }
+
+  .desktop{
+    display: none;
+  }
+}
+
+
+
+@media only screen and (min-width: 751px) and (max-width: 1023px) {
+  .smart{
+    display: none;
+  }
+
+  .tablet{
+    display: block;
+  }
+
+  .desktop{
+    display: none;
+  }
+}
+
+
+
+@media only screen and (min-width: 1024px){
+  .smart{
+    display: none;
+  }
+
+  .tablet{
+    display: none;
+  }
+
+  .desktop{
+    display: block;
+  }
+} */
