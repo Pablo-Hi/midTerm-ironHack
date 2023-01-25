@@ -50,6 +50,7 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
         <!-- Mi objetivo para este día es poder terminar el html la página principal y empezar con el css de la misma.
         Al final del día he podido completar el css solo hasta la parte de RECENT PROJECTS. Mi objetivo para mañana es poder terminarlo todo y empezar con el mediaquery.-->
         <li><a href="#day-three">Miercoles 25, Enero 2023</a></li>
+        <!-- Mis objetivos para hoy son terminar el css y poder realizar hacer la pagina responsive y mañana comenzar con js. -->
         <li><a href="#day-four">Jueves 26, Enero 2023</a></li>
         <li><a href="#day-five">Viernes 27, Enero 2023</a></li>
       </ul>
