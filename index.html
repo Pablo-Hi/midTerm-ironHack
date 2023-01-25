@@ -54,8 +54,9 @@
     <!-- Sección de proyectos recientes -->
     <div>
     <!-- Título de la sección-->
-    <div class="recentProjectsTitleContainer">
+      <div class="recentProjectsTitleContainer">
       <h2 class="recentProjectsTitle">Recent Projects</h2>
+      </div>
     </div>
     <!-- Tres bloques en línea con imágenes y texto -->
     <div class="recentProjectsColumns">
@@ -95,24 +96,28 @@
     </div>
    <!-- Sección de Reseña de clienta con emoticonos -->
    <div>
-    <!-- Texto centrado. Título y comentario -->
-    <div>
-      <h2>Hear What Our Clients Have to Say</h2>
-      <p>"Circle helped us through every stage of our startup. We really enjoyed working with you."</p>
-    </div>
-    <!-- Imagen del perfil y datos de la clienta -->
-    <div>
-      <img src="./resources/images/testimonial-section/profile.png" alt="Foto de perfil">
-      <h4>Kristin Watson</h4>
-      <p>Booking.com</p>
+    <!-- Texto centrado. Título y comentario (flexBox)-->
+    <div class="reviewContainer">
+      <div>
+        <h2 id="tituloReview">Hear What Our Clients Have to Say</h2>
+      </div>
+      <!-- Datos de la clienta -->
+      <div>
+        <h4 id="textoReview">"Circle helped us through every stage of our startup. We really enjoyed working with you."</h4>
+      </div>
+      <div class="containerNombreReview">
+        <h4 id="nombreClienta">Kristin Watson</h4>
+        <h5 id="origenReview">Booking.com</h5>
+      </div>
     </div>
     <!-- Emoticonos y órbita de fondo-->
     <div>
-      <img src="./resources/images/testimonial-section/memoji-1.png" alt="Emoticono mujer rubia">
-      <img src="./resources/images/testimonial-section/memoji-3.png" alt="Emoticono hombre con barba">
-      <img src="./resources/images/testimonial-section/memoji-2.png" alt="Emoticono hombre con gorra">
-      <img src="./resources/images/testimonial-section/memoji-4.png" alt="Emoticono mujer celebrando">
-      <img src="./resources/images/testimonial-section/orbit.png" alt="Líneas circulares discontinuas">
+      <img id="blondWoman" src="./resources/images/testimonial-section/memoji-1.png" alt="Emoticono mujer rubia">
+      <img id="beardMan" src="./resources/images/testimonial-section/memoji-3.png" alt="Emoticono hombre con barba">
+      <img id="hatMan" src="./resources/images/testimonial-section/memoji-2.png" alt="Emoticono hombre con gorra">
+      <img id="partyWoman" src="./resources/images/testimonial-section/memoji-4.png" alt="Emoticono mujer celebrando">
+      <img id="orbita" src="./resources/images/testimonial-section/orbit.png" alt="Líneas circulares discontinuas">
+      <img id="perfilReview" src="./resources/images/testimonial-section/profile.png" alt="Foto de perfil">
     </div>
    </div>
    <!-- Seccion de Nuestros servicios -->

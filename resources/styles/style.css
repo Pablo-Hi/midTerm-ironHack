@@ -6,7 +6,9 @@
   --tertiary: #6b708d;
   --quaternary: #0082f3;
   --quinary: #2a2828;
-
+  --senary: #292e47;
+  --septenary: #ffc600;
+  --octonary: #a2d6f9;
 }
 
 * {
@@ -333,7 +335,105 @@ header button:hover{
 
 /* ------------------------------ Client reviews ------------------------------ */
 
-/* Your CSS code goes here */
+.reviewContainer{
+  background-color: var(--senary);
+  display: grid; 
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 150px;
+  text-align: center;
+  margin-top: 17%;  
+  padding-top: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 4px;
+}
+                /* TEXTO */
+#tituloReview{
+  color: var(--secondary);
+  font-size: 250%;
+}
+
+#textoReview{
+  color: var(--septenary);
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 160%;
+  margin-left: 23%;
+  margin-right: 23%;
+}
+
+.containerNombreReview{
+  position: absolute;
+  text-align: left;
+  margin-left: 40%;
+  margin-top: 33%;
+}
+
+#nombreClienta{
+  color: var(--octonary);
+  font-weight: 500;
+  font-size: 17px;
+}
+
+#origenReview{
+  color: var(--secondary);
+  font-size: 13px;
+  font-weight: 400;
+}
+                /* EMOJIS Y ÓRBITA */
+#orbita{
+  position: absolute;
+  background-repeat: repeat;
+  width: 1250px;
+  height:590px;
+  left: 0px;
+  top: 2104px;
+}
+
+#blondWoman{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 2160px;
+  left: 127px;
+}
+
+#beardMan{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 2510px;
+  left: 127px;
+}
+
+#hatMan{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 2510px;
+  left: 990px;
+}
+
+#partyWoman{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 2160px;
+  left: 990px;
+}
+
+#perfilReview{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:150px;
+  top: 2600px;
+  left: 42%;
+}
 
 /* ------------------------------ Services ------------------------------ */
 
