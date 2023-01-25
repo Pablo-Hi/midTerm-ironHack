@@ -172,7 +172,7 @@
         <!-- Caja de texto -->
         <div class="rectanguloEmail">
           <div class="iconoSobre"></div>
-          <input type="email" class="espacioParaEscribir">
+          <input type="email" placeholder="Enter your email" class="espacioParaEscribir">
         </div>
         <!-- Botón de enviar -->
         <button class="botonSuscribe">Suscribe</button>
@@ -182,24 +182,27 @@
    <!-- Pie de página -->
    <footer>
     <!-- Dirección (Parte izquierda)-->
-    <div>
-      <address>
-        <img src="./resources/images/logos/circle.svg" alt="Logo de Cercle">
-        <br>2972 Westheimer Rd. Santa Ana,
-        <br>Illinois 95486
-      </address>
-    </div>
-    <!-- Menú linkeado (parte derecha) -->
-    <div>
-      <ul>
-        <li><a href="">Team</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">About us</a></li>
-        <li><a href="">Press</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Privacy Policy</a></li>
-      </ul>
+    <div class="logoAndAdress">
+      <div>
+        <div>
+          <img id="lastLogo" src="./resources/images/logos/circle.svg" alt="Logo de Cercle">
+        </div>
+        <address class="adressClass">
+          <br>2972 Westheimer Rd. Santa Ana,
+          <br>Illinois 95486
+        </address>
+      </div>
+      <!-- Menú linkeado (parte derecha) -->
+      <div class="gridOfLinks">
+        <a id="lastLink" href="">Team</a></li>
+        <a id="lastLink" href="">Services</a></li>
+        <a id="lastLink" href="">About us</a></li>
+        <a id="lastLink" href="">Press</a></li>
+        <a id="lastLink" href="">Projects</a></li>
+        <a id="lastLink" href="">Privacy Policy</a></li>
+      </div>
     </div>
    </footer>
+   <button class="sticky-btn"><a href="https://webflow.com/?utm_campaign=brandjs">Made in Webflow</a></button>
   </body>
 </html>
