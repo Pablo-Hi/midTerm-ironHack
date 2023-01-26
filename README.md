@@ -109,6 +109,8 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 #### Day One
 
+Mi objetivo para este día era hacer una planificación del html principal en papel y subdividir el trabajo en partes pequeñas para ir construyendo. Una vez terminado este esquema empezar a programar la parte del html y dejar lista, al menos, la primera página principal. Pude realizar casi todo el trabajo planteado, solo me faltó el footer de la primera página.
+
 #### Day One
 
 ###### Lunes 23, Enero 2023
