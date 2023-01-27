@@ -18,10 +18,12 @@ html {
 body {
     font-family: "Roboto", sans-serif;
     background-color: var(--secondary);
-    width: 100vw;
+    width: 90vw;
     padding: 0 40px;
     overflow-x: hidden;
-    margin: 0;
+    margin-left: 20px;
+    border: 5px solid red;
+    align-content: center;
 }
 
 h1{
@@ -203,10 +205,14 @@ h2{
 
 .logos{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 250px;
+    flex-wrap: wrap;
 }
+
+
 /* ------------------------------ Recent projects ------------------------------ */
 
 .recentProjectsColumns{
@@ -448,18 +454,21 @@ input::placeholder{
     margin-bottom: 20px;
 }
 
-.gridOfLinks{
+.partOfLinks{
     width: 50%;
+    margin-bottom: 30px;
 }
 
 .lastLink{
     color: #0000ee;
     font-weight: 400;
+    width: 100%;
 }
 
 .lastLink:link{
     text-decoration: none;
 }
+
 /* -------------------------------------------------------------------------- */
 /* ------------------------------ PROJECT html ------------------------------ */
 /* -------------------------------------------------------------------------- */
@@ -490,6 +499,9 @@ input::placeholder{
 @media (max-width: 766px) {
     h2, h4{
         text-align: center;
+    }
+    body{
+        margin: 0;
     }
     .menuNavBar{
         display: none;
@@ -538,18 +550,13 @@ input::placeholder{
         margin: 15px 0;
     }
     .logos{
-        flex-direction: column;
         margin-bottom: 30px;
+        gap: 15px 20px;
+        justify-content: space-around;
+        margin-bottom: 70px;
     }
     .amazonLogo{
         display: none;
-    }
-    .logoRow{
-        width: 100%;
-        justify-content: space-around;
-        flex-direction: row;
-        display: flex;
-        margin-bottom: 100px;
     }
     .reviewContainer{
         align-items: center;
@@ -600,15 +607,12 @@ input::placeholder{
         width: 100%;
         align-items: center;
     }
-    .gridOfLinks{
-        flex-direction: column;
-        margin-bottom: 30px;
-    }
-    .lastLink{
+    .partOfLinks{
         width: 100%;
-        flex-direction: row;
-        display: flex;
-        }
+        justify-content: space-around;
+    }
+
+}
 /* ------------------------------ Hamburguer menu ------------------------------ */
 
 /* Your CSS code goes here */
