@@ -5,204 +5,158 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Circle Agency</title>
-    <link rel="stylesheet" href="resources/styles/style.css" />
+    <link rel="stylesheet" href="resources/styles/style2.css" />
   </head>
   <body>
     <!-- Sección de Navigation Bar -->
-    <nav>
+    <nav class="navBar">
       <!-- Logo Cercle -->
-      <div>    
-        <img src="./resources/images/logos/circle.svg" alt="logoCercle">
-      </div>
+      <img class="fisrtLogo" src="./resources/images/logos/circle.svg" alt="logoCercle">
       <!-- Indice de la página -->
-      <div>
-        <ul>
-          <li class="home">Home</li>
-          <li>Projects</li>
-          <li>Services</li>
-        </ul>
+      <div  class="menuNavBar">
+        <a class="homeHome">Home</a>
+        <a class="home">Projects</a>
+        <a class="home">Services</a>
       </div>
       <!-- Botón de contacto -->
-      <div>
-        <button>Contact Us</button>
-      </div>
+      <button class="navButton">Contact Us</button>
     </nav>
     <!-- Sección de Encabezado -->
-    <header>
+    <header class="presentationContainer">
       <!-- Título grande, párrafo y botones. (Parte izquierda del header) -->
-      <div class="presentationContainer">
-        <h1 class="firstTitle">Empower Your Business With Stunning Design!</h1>
-        <p class="firstText">Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
-        <p class="seeOurWork">See our work</p>
-        <button>Get in touch</button>
+      <div class="leftHeaderContainer">
+        <h1>Empower Your Business With Stunning Design!</h1>
+        <h3 class="firstText">Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</h3>
+        <div class="seeOurWorkAndButton">
+          <p class="seeOurWork">See our work</p>
+          <button class="getInTouchButton">Get in touch</button>
+        </div>
       </div>
-      <!-- Imágenes del hero section (Parte derecha del header) -->
-      <div>
+
+      <div class="rightHeaderContainer">
         <img class="smilyMan" src="./resources/images/hero-section/hero-image.png" alt="Hombre sonriendo">
         <img class="creditCard" src="./resources/images/hero-section/card-1.png" alt="Tarjeta de crédito">
         <img class="okFinguer" src="./resources/images/hero-section/card-2.png" alt="Icono Ok">
       </div>
-    </header>
+      <!-- Imágenes del hero section (Parte derecha del header) -->
+      </header>
     <!-- Sección de Barra de logos partners-->
     <div class="logos">
-      <img src="./resources/images/logos/airbnb-logo.svg" alt="Airbnb logo"></li>
-      <img src="./resources/images/logos/google-logo.svg" alt="Google logo"></li>
-      <img src="./resources/images/logos/microsoft-logo.svg" alt="Microsoft logo"></li>
-      <img src="./resources/images/logos/fedex-logo.svg" alt="Fedex logo"></li>
-      <img src="./resources/images/logos/amazon-logo.svg" alt="Amazon logo"></li>
+      <div class="logoRow">
+        <img src="./resources/images/logos/airbnb-logo.svg" alt="Airbnb logo"></li>
+        <img src="./resources/images/logos/google-logo.svg" alt="Google logo"></li>
+      </div>
+      <div class="logoRow">
+        <img src="./resources/images/logos/microsoft-logo.svg" alt="Microsoft logo"></li>
+        <img src="./resources/images/logos/fedex-logo.svg" alt="Fedex logo"></li>
+      </div>
+      <img class="amazonLogo" src="./resources/images/logos/amazon-logo.svg" alt="Amazon logo"></li>
     </div>
     <!-- Sección de proyectos recientes -->
-    <div>
-    <!-- Título de la sección-->
-      <div class="recentProjectsTitleContainer">
-      <h2 class="recentProjectsTitle">Recent Projects</h2>
-      </div>
-    </div>
+    <h2>Recent Projects</h2>
     <!-- Tres bloques en línea con imágenes y texto -->
     <div class="recentProjectsColumns">
-      <div class="primeraColumna">
-        <div>
-          <img class="primeraColumnaImg" src="./resources/images/projects-section/1.jpg" alt="Dibujo geométrico colorido">
-        </div>
-        <div class="recentProjectH">
-          <h3 id="simplify">Simplify</h3> 
-          <p>UI Design & App Development</p>
-          <a id="lmU" href="">Learn More</a>
-        </div>
+
+      <div class="recentProjectBox">
+          <img class="columnaImg" src="./resources/images/projects-section/1.jpg" alt="Dibujo geométrico colorido">
+          <h3 class="boxTitle">Simplify</h3> 
+          <p class="boxParraf">UI Design & App Development</p>
+          <a class="learnMore" href="">Learn More</a>
       </div>
   
-      <div class="segundaColumna">
-        <div>
-          <img class="segundaColumnaImg" src="./resources/images/projects-section/2.jpg" alt="Dibujo de discos colorido">
-        </div>
-        <div class="recentProjectH">
-          <h3 id="dashcoin">Dashcoin</h3> 
-          <p>Web Developement</p>
-          <a id="lmD" href="">Learn More</a>
-        </div>
+      <div class="recentProjectBox">
+          <img class="columnaImg" src="./resources/images/projects-section/2.jpg" alt="Dibujo de discos colorido">
+          <h3 class="boxTitle">Dashcoin</h3> 
+          <p class="boxParraf">Web Developement</p>
+          <a class="learnMore" href="">Learn More</a>
       </div>
   
-      <div class="terceraColumna">
-        <div>
-          <img class="terceraColumnaImg" src="./resources/images/projects-section/3.jpg" alt="Dibujo de esferas y cubos colorido">
-        </div>
-        <div class="recentProjectH">
-          <h3 id="vectorify">Vectorify</h3> 
-          <p>User Experience Desing</p>
-          <a id="lmT" href="">Learn More</a>
-        </div>
+      <div class="recentProjectBox">
+          <img class="columnaImg" src="./resources/images/projects-section/3.jpg" alt="Dibujo de esferas y cubos colorido">
+          <h3 class="boxTitle">Vectorify</h3> 
+          <p class="boxParraf">User Experience Desing</p>
+          <a class="learnMore" href="">Learn More</a>
       </div>
 
     </div>
    <!-- Sección de Reseña de clienta con emoticonos -->
-   <div>
     <!-- Texto centrado. Título y comentario (flexBox)-->
     <div class="reviewContainer">
-      <div>
-        <h2 id="tituloReview">Hear What Our Clients Have to Say</h2>
+      <h2 class="tituloReview">Hear What Our Clients Have to Say</h2>
+      <h4 class="textoReview">"Circle helped us through every stage of our startup. We really enjoyed working with you."</h4>
+      <div class="perfilKristin">
+        <img class="perfilReview" src="./resources/images/testimonial-section/profile.png" alt="Foto de perfil">
+        <div>
+          <h4 class="kristinWatson">Kristin Watson</h4>
+          <h5 class="booking">Booking.com</h5>
+        </div>
       </div>
-      <!-- Datos de la clienta -->
-      <div>
-        <h4 id="textoReview">"Circle helped us through every stage of our startup. We really enjoyed working with you."</h4>
-      </div>
-      <div class="containerNombreReview">
-        <h4 id="nombreClienta">Kristin Watson</h4>
-        <h5 id="origenReview">Booking.com</h5>
-      </div>
+      <img class="blondWoman face" src="./resources/images/testimonial-section/memoji-1.png" alt="Emoticono mujer rubia">
+      <img class="beardMan face" src="./resources/images/testimonial-section/memoji-3.png" alt="Emoticono hombre con barba">
+      <img class="hatMan face" src="./resources/images/testimonial-section/memoji-2.png" alt="Emoticono hombre con gorra">
+      <img class="partyWoman face" src="./resources/images/testimonial-section/memoji-4.png" alt="Emoticono mujer celebrando">
     </div>
-    <!-- Emoticonos y órbita de fondo-->
-    <div>
-      <img id="blondWoman" src="./resources/images/testimonial-section/memoji-1.png" alt="Emoticono mujer rubia">
-      <img id="beardMan" src="./resources/images/testimonial-section/memoji-3.png" alt="Emoticono hombre con barba">
-      <img id="hatMan" src="./resources/images/testimonial-section/memoji-2.png" alt="Emoticono hombre con gorra">
-      <img id="partyWoman" src="./resources/images/testimonial-section/memoji-4.png" alt="Emoticono mujer celebrando">
-      <img id="orbita" src="./resources/images/testimonial-section/orbit.png" alt="Líneas circulares discontinuas">
-      <img id="perfilReview" src="./resources/images/testimonial-section/profile.png" alt="Foto de perfil">
-    </div>
-   </div>
-   <!-- Seccion de Nuestros servicios -->
-   <div>
+    <!-- Seccion de Nuestros servicios -->
     <!-- Título de la sección -->
-    <div class="ourServicesTittleContainer">
-      <h2 class="ourServicesTitle">Our Services</h2>
-    </div>
+    <h2 class="ourServicesTitle">Our Services</h2>
     <!-- Tres cuadrados en línea con icono y texto -->
     <div class="ourServicesColumns">
-      <div class="primerCuadrado">
-        <div id="plumaIcono"></div>
-        <div id="textoCuadradoUno">
-          <h3 id="userInterfaceH">User Interface Design</h3>
-          <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
-          <a id="lmC" href="">Learn More</a>
-        </div>
-        
-      </div>
 
-      <div class="segundoCuadrado">
-        <div id="ratonIcono"></div>
-        <div id="textoCuadradoDos">
-          <h3 id="userExperienceH">User Experience Design</h3>
+      <div class="ourServicesBox">
+        <div class="ourServicesIcono"><img class="classIconoOurServices" src="./resources/images/services-section/icons/1.svg" alt="Icono Pluma"></div>
+        <h3 class="servicesBoxTitle">User Interface Design</h3>
+        <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+        <a class="learnMore2" href="">Learn More</a>
+      </div>
+  
+      <div class="ourServicesBox">
+        <div class="ourServicesIcono"><img class="classIconoOurServices" src="./resources/images/services-section/icons/2.svg" alt="Icono Ratón"></div>
+          <h3 class="servicesBoxTitle">User Experience Design</h3>
           <p>Circle always focuses on delivering the best user experience to your customers.</p>
-          <a id="lmX" href="">Learn More</a>
-        </div>
-        
+          <a class="learnMore2" href="">Learn More</a>
       </div>
-
-      <div class="tercerCuadrado">
-        <div id="etiquetaIcono"></div>
-        <div id="textoCuadradoTres">
-          <h3 id="applicationDevelopmentH">Application Development</h3>
+  
+      <div class="ourServicesBox">
+        <div class="ourServicesIcono"><img class="classIconoOurServices" src="./resources/images/services-section/icons/3.svg" alt="Icono Etiqueta"></div>
+          <h3 class="servicesBoxTitle">Application Development</h3>
           <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
-          <a id="lmS" href="">Learn More</a>
-        </div>
+          <a class="learnMore2" href="">Learn More</a>
       </div>
+    
     </div>
-
-   </div>
    <!-- Sección de Preguntas fondo amarillo -->
    <div class="containerAmarillo">
-    <!-- Título de la sección -->
-    <div>
-      <h2 class="tituloAmarillo">Do you have any questions?</h2>
-      <p class="textoAmarillo">Let us help you!</p>
-    </div>
     <!-- Espacio para subscribirte -->
-    <div class="emailForm">
-      <form action="emailForm">
+      <form class="emailForm" action="emailForm">
+        <h2 class="tituloAmarillo">Do you have any questions?</h2>
+        <p class="textoFormAmarillo">Let us help you!</p>
         <!-- Caja de texto -->
-        <div class="rectanguloEmail">
-          <div class="iconoSobre"></div>
+        <div class="barraEmail">
           <input type="email" placeholder="Enter your email" class="espacioParaEscribir">
+          <!-- Botón de enviar -->
+          <button class="botonSuscribe">Suscribe</button>
         </div>
-        <!-- Botón de enviar -->
-        <button class="botonSuscribe">Suscribe</button>
+        
       </form>
     </div>
-   </div>
    <!-- Pie de página -->
-   <footer>
+   <footer class="logoAndAdress">
     <!-- Dirección (Parte izquierda)-->
-    <div class="logoAndAdress">
-      <div>
-        <div>
-          <img id="lastLogo" src="./resources/images/logos/circle.svg" alt="Logo de Cercle">
-        </div>
-        <address class="adressClass">
-          <br>2972 Westheimer Rd. Santa Ana,
-          <br>Illinois 95486
-        </address>
-      </div>
+    <address class="adressClass">
+      <img class="lastLogoD" src="./resources/images/logos/circle.svg" alt="Logo de Cercle">
+      <br>2972 Westheimer Rd. Santa Ana,
+      <br>Illinois 95486
+    </address>
       <!-- Menú linkeado (parte derecha) -->
-      <div class="gridOfLinks">
-        <a id="lastLink" href="">Team</a></li>
-        <a id="lastLink" href="">Services</a></li>
-        <a id="lastLink" href="">About us</a></li>
-        <a id="lastLink" href="">Press</a></li>
-        <a id="lastLink" href="">Projects</a></li>
-        <a id="lastLink" href="">Privacy Policy</a></li>
-      </div>
+    <div class="gridOfLinks">
+      <a class="lastLink" href="">Team</a></li>
+      <a class="lastLink" href="">Services</a></li>
+      <a class="lastLink" href="">About us</a></li>
+      <a class="lastLink" href="">Press</a></li>
+      <a class="lastLink" href="">Projects</a></li>
+      <a class="lastLink" href="">Privacy Policy</a></li>
     </div>
    </footer>
-   <button class="sticky-btn"><a href="https://webflow.com/?utm_campaign=brandjs">Made in Webflow</a></button>
+   <button class="stickyBtn"><a href="https://webflow.com/?utm_campaign=brandjs">Made in Webflow</a></button>
   </body>
 </html>

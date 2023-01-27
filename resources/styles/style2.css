@@ -1,0 +1,587 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap");
+
+:root {
+    --primary: #072ac8;
+    --secondary: #f2f4fc;
+    --tertiary: #6b708d;
+    --quaternary: #0082f3;
+    --quinary: #2a2828;
+    --senary: #292e47;
+    --septenary: #ffc600;
+    --octonary: #a2d6f9;
+  }
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--secondary);
+    width: 100vw;
+    padding: 0 40px;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #2a2828;
+}
+/* ------------------------------------------------------------------------ */
+        /* STICKY BUTTON */
+.stickyBtn {
+  position: fixed;
+  text-decoration: none;
+  font-size: 15px;
+  bottom: 15px;
+  right: 15px;
+  z-index: 2;
+  border-radius: 4px;
+  border-color: rgb(190, 188, 188);
+  border-width: 1px;
+  border-style: solid;
+  background-color: #fdfdfc;
+  padding: 6px 6px 6px 6px;
+  width: 135px;
+  height: 28px;
+}
+
+.sticky-btn:hover{
+  cursor: pointer;
+}
+/* ------------------------------ INDEX html ------------------------------ */
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------ Splash page ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------ CIRCULAR ANIMATION ------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Navbar ------------------------------ */
+.navBar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.fisrtLogo:hover{
+    cursor: pointer;
+}
+
+.menuNavBar{
+    color: #6b708d;
+    margin: 15px;
+}
+
+.home{
+    margin: 0 20px;
+    font-weight: 500;
+}
+
+.home:hover{
+    color: #072ac8;
+    cursor: pointer;
+}
+
+.homeHome{
+    color: #0082f3;
+    margin: 0 20px;
+    font-weight: 500;
+}
+
+.homeHome:hover{
+    color: #072ac8;
+}
+
+.navButton{
+    color: white;
+    font-size: 17px;
+    padding: 15px 30px;
+    margin-left: 15px;
+    border-style: none;
+    background-color: #072ac8;
+
+}
+
+.navButton:hover{
+    background-color: var(--quinary);
+    cursor: pointer;
+  }
+
+/* ------------------------------ Header ------------------------------ */
+
+.firstText{
+    font-size: 27px;
+    font-weight: 400;
+    color: #6b708d;
+}
+
+.seeOurWork{
+    font-size: 18px;
+    font-weight: 500;
+    color: #6b708d;
+}
+
+.seeOurWork:hover{
+    cursor: pointer;
+}
+
+.presentationContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 150px 0 120px 0;
+}
+
+.leftHeaderContainer{
+    width: 50%;
+    position: relative;
+    padding-right: 40px;
+    padding-top: 50px;
+}
+
+.rightHeaderContainer{
+    width: 50%;
+    position: relative;
+}
+
+.smilyMan{
+    width: 100%;
+}
+
+.creditCard{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 0;
+    left: 0;
+}
+
+.okFinguer{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    bottom: 0;
+    right: 0;
+}
+
+
+.getInTouchButton{
+    position: relative;
+    color: white;
+    font-size: 17px;
+    padding: 15px 30px;
+    margin-left: 15px;
+    border-style: none;
+    background-color: #072ac8;
+  }
+
+  .getInTouchButton:hover{
+    background-color: #292e47;
+    cursor: pointer;
+  }
+
+.seeOurWorkAndButton{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* ------------------------------ Partners ------------------------------ */
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 250px;
+}
+/* ------------------------------ Recent projects ------------------------------ */
+
+.recentProjectsColumns{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 90px 0 210px 0;
+}
+
+.columnaImg{
+    width: 100%;
+    height: 250px;
+}
+
+.recentProjectBox{
+    width: 30%;
+    background-color: white;
+}
+
+.boxTitle{
+    color: #2a2828;
+    padding-left: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.boxParraf{
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.learnMore{
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 500;
+    top: 110px;
+    padding-left: 30px;
+  }
+
+
+/* ------------------------------ Client reviews ------------------------------ */
+
+.reviewContainer{
+    width: 100%;
+    background-color: #292e47;
+    height: 600px;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.perfilKristin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.perfilReview{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.blondWoman{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 150px;
+}
+
+.beardMan{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    width: 150px;
+}
+
+.hatMan{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 150px;
+}
+
+.partyWoman{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 150px;
+}
+
+.tituloReview{
+    color: #ecf7ff;
+}
+
+.textoReview{
+    color: #ffc600;
+    padding: 100px 0;
+    background-image: url(../images/testimonial-section/orbit.png);
+    background-size: 100%;
+}
+
+.kristinWatson{
+    font-weight: 500;
+    color: #a2d6f9;
+}
+
+.booking{
+    font-weight: 300;
+}
+
+/* ------------------------------ Services ------------------------------ */
+.ourServicesTitle{
+    margin: 200px 0 70px;
+}
+
+.ourServicesColumns{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ourServicesIcono{
+    background-color:#ecf7ff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.classIconoOurServices{
+    width: 40px;
+    height: 40px;
+}
+
+.ourServicesBox{
+    width: 25%;
+    height: 300px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 200px;
+}
+
+.servicesBoxTitle{
+    color: #2a2828;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.learnMore2{
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 500;
+  }
+/* ------------------------------ Questions form ------------------------------ */
+
+.emailForm{
+    width: 100%;
+    background-color: #ffc600;
+    height: 500px;
+    color: #292e47;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.textoFormAmarillo{
+    color: #6b708d;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: -20px;
+}
+
+.botonSuscribe{
+    color: white;
+    font-size: 20px;
+    padding: 15px 60px;
+    height: 80px;
+    width: 180px;
+    border-style: none;
+    background-color: #072ac8;
+    margin: 30px 0 0 25px;
+}
+
+.espacioParaEscribir{
+    width: 393px;
+    height: 80px;
+    margin-top: 30px;
+    border: 1px solid #bdc0ce;
+    background-image: url(../images/newsletter/icon/mail.svg);
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 23px;
+    padding-left: 60px;
+}
+
+input::placeholder{
+    font-size: 17px;
+}
+
+.barraEmail{
+    display: flex;
+    flex-direction: row;
+}
+/* ------------------------------ Footer ------------------------------ */
+
+.logoAndAdress{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 215px;
+}
+
+.adressClass{
+    width: 50%;
+    font-style: normal;
+    color: #6b708d;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.lastLogoD{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.gridOfLinks{
+    width: 50%;
+}
+
+.lastLink{
+    color: #0000ee;
+    font-weight: 400;
+}
+
+.lastLink:link{
+    text-decoration: none;
+}
+/* -------------------------------------------------------------------------- */
+/* ------------------------------ PROJECT html ------------------------------ */
+/* -------------------------------------------------------------------------- */
+
+/* ------------------------------ Project main ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ----------------------------------------------------------------------------- */
+/* ------------------------------ CONTACT-US html ------------------------------ */
+/* ----------------------------------------------------------------------------- */
+
+/* ------------------------------ Form ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ----------------------------------------------------------------------------- */
+/* ------------------------------ About html ------------------------------ */
+/* ----------------------------------------------------------------------------- */
+
+/* Your CSS code goes here */
+
+/* --------------------------------------------------------------------------- */
+/* ------------------------------ MEDIA QUERIES ------------------------------ */
+/* --------------------------------------------------------------------------- */
+
+/* ------------------------- Smaller than 766px (mobile) ------------------------- */
+@media (max-width: 766px) {
+    h2, h4{
+        text-align: center;
+    }
+    .presentationContainer{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .leftHeaderContainer{
+        width: 100%;
+        padding-right: 0;
+    }
+    .seeOurWorkAndButton{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .getInTouchButton{
+        margin: 0;
+        width: 200px;
+    }
+    .rightHeaderContainer{
+        width: 100%;
+    }
+    .creditCard{
+        display: none;
+    }
+    .okFinguer{
+        display: none;
+    }
+    .recentProjectsColumns{
+        flex-direction: column;
+        align-items: center;
+        height: unset;
+        margin-bottom: 50px;
+    }
+    .recentProjectBox{
+        width: 100%;
+        height: 450px;
+        margin: 15px 0;
+    }
+    .logos{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .amazonLogo{
+        display: none;
+    }
+    .logoRow{
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: row;
+        display: flex;
+        margin-bottom: 100px;
+    }
+    .reviewContainer{
+        align-items: center;
+    }
+    .face{
+        display: none;
+    }
+    .textoReview{
+        font-size: 30px;
+        font-weight: 500;
+        padding: 0 30px;
+    }
+    .ourServicesTitle{
+        margin: 50px 0 50px;
+    }
+    .ourServicesColumns{
+        flex-direction: column;
+    }
+    .ourServicesBox{
+        max-width: 100%;
+        width: auto;
+    }
+    .espacioParaEscribir{
+        width: 200px;
+    }
+    .barraEmail{
+        flex-direction: column;
+        align-items: center;
+    }
+    .botonSuscribe{
+        margin-left: 0;
+    }
+}
+/* ------------------------------ Hamburguer menu ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Alert ------------------------------ */
+
+/* Your CSS code goes here */
+
+/* ------------------------------ Sticky scroll bar ------------------------------ */
+
+/* Your CSS code goes here */
