@@ -142,8 +142,10 @@ Al final solo he podido terminar con el css de la pag principal. Mañana quiero 
 
 Mi objetivo para hoy es poder terminar el responsive ya que ayer no lo pude comenzar, pero terminé el css.
 
+Al final del día me he dado cuenta de que el CSS que tenía hecho estaba tan mal que lo he tenido que hacer todo de nuevo. Por suerte he podido terminar el responsive aunque no he podido meterme con lógica.
+
 - [x] Empezar con el responsive.
-- [ ] Terminar con el responsive.
+- [x] Terminar con el responsive.
 
 #### Day Five
 
