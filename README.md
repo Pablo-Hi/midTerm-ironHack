@@ -45,13 +45,8 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
      <ul>
      <li><a href="#backlog">Back log</a></li>
         <li><a href="#day-one">Lunes 23, Enero 2023</a></li>
-        <!-- Mi objetivo para este día era hacer una planificación del html principal en papel y subdividir el trabajo en partes pequeñas para ir construyendo. Una vez terminado este esquema empezar a programar la parte del html y dejar lista, al menos, la primera página principal. Pude realizar casi todo el trabajo planteado, solo me faltó el footer de la primera página. -->
         <li><a href="#day-two">Martes 24, Enero 2023</a></li>
-        <!-- Mi objetivo para este día es poder terminar el html la página principal y empezar con el css de la misma.
-        Al final del día he podido completar el css solo hasta la parte de RECENT PROJECTS. Mi objetivo para mañana es poder terminarlo todo y empezar con el mediaquery.-->
         <li><a href="#day-three">Miercoles 25, Enero 2023</a></li>
-        <!-- Mis objetivos para hoy son terminar el css y poder realizar hacer la pagina responsive y mañana comenzar con js. 
-        Al final solo he podido terminar con el css de la pag principal. Mañana quiero hacer todo el responsive y si me da tiempo emprezar con las otras páginas-->
         <li><a href="#day-four">Jueves 26, Enero 2023</a></li>
         <li><a href="#day-five">Viernes 27, Enero 2023</a></li>
       </ul>
@@ -130,7 +125,7 @@ Al final del día he podido completar el css solo hasta la parte de RECENT PROJE
 
 ###### Miercoles 25, Enero 2023
 
-Mis objetivos para hoy son terminar el css y poder realizar hacer la pagina responsive y mañana comenzar con js. 
+Mis objetivos para hoy son terminar el css y poder realizar hacer la pagina responsive y mañana comenzar con js.
 Al final solo he podido terminar con el css de la pag principal. Mañana quiero hacer todo el responsive y si me da tiempo emprezar con las otras páginas
 
 - [x] Terminar el CSS de la página principal.
@@ -150,6 +145,8 @@ Al final del día me he dado cuenta de que el CSS que tenía hecho estaba tan ma
 #### Day Five
 
 ###### Viernes 27, Enero 2023
+
+Hoy he terminado el fetch y terminado los últimos detalles de maquetación.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
