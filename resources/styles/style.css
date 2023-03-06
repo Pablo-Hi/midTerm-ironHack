@@ -20,7 +20,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--secondary);
-  width: 100vw;
+  width: 100vh;
 }
 
 /* ------------------------------------------------------------------------ */
